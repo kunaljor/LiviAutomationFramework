@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Livi Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Basic Interactions(failed)" verbose="0">
+    <classes>
+      <class name="uiFunctionalTests.Test_WebView">
+        <methods>
+          <include name="assertLastRunTest"/>
+          <include name="initializeExtent"/>
+          <include name="essentialsForTest"/>
+          <include name="endExtent"/>
+          <include name="setUp"/>
+          <include name="verifyButtonsAndLinksSelection" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- uiFunctionalTests.Test_WebView -->
+    </classes>
+  </test> <!-- Basic Interactions(failed) -->
+</suite> <!-- Failed suite [Livi Automation Suite] -->

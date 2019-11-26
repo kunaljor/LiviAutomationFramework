@@ -1,0 +1,6 @@
+01:59:23.557 [main] INFO  managers.POManager - Back on Main Page
+01:59:45.657 [main] INFO  managers.POManager - Livi's Greeting - Hi, I'm Livi!
+01:59:47.658 [main] INFO  managers.POManager - Clicked on "CALL"
+01:59:47.658 [main] INFO  managers.POManager - The link to be opened now is LOCATION
+02:00:04.588 [main] ERROR org.testng.ITestListener - *** Executed verifyButtonsAndLinksSelection test failed...
+02:00:04.593 [main] INFO  org.testng.ITestListener - The value of timestamp converted to string is20191127020004592

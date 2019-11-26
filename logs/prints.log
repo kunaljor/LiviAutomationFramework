@@ -1,0 +1,3 @@
+02:00:06.342 [main] INFO  uiFunctionalTests.BaseTest - The value of timestamp converted to string is20191127020006341
+02:00:07.302 [main] INFO  org.testng.ITestListener - *** Ending Test ***Basic Interactions
+02:00:07.368 [main] INFO  uiFunctionalTests.BaseTest - In tearDown

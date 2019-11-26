@@ -1,0 +1,5 @@
+23:52:41.959 [main] INFO  managers.POManager - My message to Livi-Describe how E =mc squared
+23:52:45.604 [main] INFO  managers.POManager - Value of pageAction now pageObjects.LiviInteractions@333c8791
+23:52:55.753 [main] INFO  managers.POManager - The last message to Livi was [[ChromeDriver: chrome on XP (f48f8a6cfca4ffb39d5f75446fe25175)] -> xpath: //div[contains(@class,'conversation-item mine')]]
+23:53:05.911 [main] INFO  managers.POManager - In getLastReply,  The last reply from Livi was Let me know if you want more!
+Show me some interesting articles

@@ -1,0 +1,5 @@
+23:41:37.596 [TestNG-test=Basic Interactions-2] INFO  managers.POManager - The Apostle name captured is Peter
+23:41:37.905 [TestNG-test=Basic Interactions-2] INFO  managers.POManager - The Apostle name captured is Paul
+23:41:37.957 [TestNG-test=Basic Interactions-2] ERROR org.testng.ITestListener - *** Executed verifyApostleSelection test failed...
+23:41:37.959 [TestNG-test=Basic Interactions-2] INFO  org.testng.ITestListener - The value of timestamp converted to string is20191126234137958
+23:41:38.376 [TestNG-test=Basic Interactions-2] INFO  uiFunctionalTests.BaseTest - The value of timestamp converted to string is20191126234138376

@@ -1,0 +1,8 @@
+16:53:38.826 [main] INFO  managers.POManager - In Main Menu method
+16:53:39.527 [main] INFO  managers.POManager - After Menu Options Click
+16:53:44.089 [main] INFO  managers.POManager - After Main Menu  Click
+16:54:04.316 [main] INFO  managers.POManager - The last reply from Livi was What can I help you with today?
+See More Options
+16:54:04.373 [main] INFO  managers.POManager - Livi's Response to "Main Menu" selection... <br /> What can I help you with today?
+See More Options
+16:54:04.375 [main] INFO  org.testng.ITestListener - *** Executed verifyMainMenu test successfully...
