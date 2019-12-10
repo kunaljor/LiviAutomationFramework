@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uiFunctionalTests.Test_MainMenu">
+      <class name="uiFunctionalTests.Test_Country">
         <methods>
-          <include name="verifyLiviHealth"/>
-          <include name="verifyMainMenu"/>
+          <include name="verifyCountrySelection"/>
+          <include name="assertLastRunTest"/>
+          <include name="initializeExtent"/>
+          <include name="essentialsForTest"/>
+          <include name="endExtent"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- uiFunctionalTests.Test_MainMenu -->
+      </class> <!-- uiFunctionalTests.Test_Country -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

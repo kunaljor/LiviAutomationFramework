@@ -1,72 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="4" total="11" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-27T01:57:02 IST" name="Livi Automation Suite" finished-at="2019-11-27T02:00:07 IST" duration-ms="185044">
+  <suite started-at="2019-12-11T01:49:09 IST" name="Livi Automation Suite" finished-at="2019-12-11T01:54:19 IST" duration-ms="310781">
     <groups>
     </groups>
-    <test started-at="2019-11-27T01:57:02 IST" name="Basic Interactions" finished-at="2019-11-27T02:00:07 IST" duration-ms="185044">
-      <class name="uiFunctionalTests.Test_WebView">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:uiFunctionalTests.Test_WebView@65b104b9]" started-at="2019-11-27T01:57:02 IST" name="setUp" finished-at="2019-11-27T01:57:22 IST" duration-ms="20567" status="PASS">
+    <test started-at="2019-12-11T01:49:09 IST" name="Test 1" finished-at="2019-12-11T01:54:19 IST" duration-ms="310781">
+      <class name="uiFunctionalTests.Test_BasicInteractions">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:49:09 IST" name="setUp" finished-at="2019-12-11T01:49:19 IST" duration-ms="10603" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@550e9be6]]>
+                <![CDATA[org.testng.TestRunner@6e35bc3d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="essentialsForTest()[pri:0, instance:uiFunctionalTests.Test_WebView@65b104b9]" started-at="2019-11-27T01:57:22 IST" name="essentialsForTest" finished-at="2019-11-27T01:57:49 IST" duration-ms="26594" status="PASS">
+        <test-method is-config="true" signature="essentialsForTest()[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:49:19 IST" name="essentialsForTest" finished-at="2019-12-11T01:49:35 IST" duration-ms="16010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- essentialsForTest -->
-        <test-method is-config="true" signature="initializeExtent(java.lang.reflect.Method)[pri:0, instance:uiFunctionalTests.Test_WebView@65b104b9]" started-at="2019-11-27T01:57:52 IST" name="initializeExtent" finished-at="2019-11-27T01:57:52 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="initializeExtent(java.lang.reflect.Method)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:49:38 IST" name="initializeExtent" finished-at="2019-12-11T01:49:38 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void uiFunctionalTests.Test_WebView.verifyButtonsAndLinksSelection(java.lang.String) throws java.lang.InterruptedException]]>
+                <![CDATA[public void uiFunctionalTests.Test_BasicInteractions.interactWithLivi(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeExtent -->
-        <test-method signature="verifyButtonsAndLinksSelection(java.lang.String)[pri:6, instance:uiFunctionalTests.Test_WebView@65b104b9]" started-at="2019-11-27T01:57:52 IST" name="verifyButtonsAndLinksSelection" data-provider="links" finished-at="2019-11-27T02:00:04 IST" duration-ms="132266" status="FAIL">
+        <test-method signature="interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:49:38 IST" name="interactWithLivi" data-provider="messagesForLivi" finished-at="2019-12-11T01:50:04 IST" duration-ms="25446" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Avaamo,Call,Location]]>
+                <![CDATA[Hi Livi! How are you?]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interactWithLivi -->
+        <test-method is-config="true" signature="endExtent(org.testng.ITestResult)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:04 IST" name="endExtent" finished-at="2019-12-11T01:50:04 IST" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=interactWithLivi status=SUCCESS method=Test_BasicInteractions.interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+        <test-method is-config="true" signature="initializeExtent(java.lang.reflect.Method)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:04 IST" name="initializeExtent" finished-at="2019-12-11T01:50:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void uiFunctionalTests.Test_BasicInteractions.interactWithLivi(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtent -->
+        <test-method signature="interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:04 IST" name="interactWithLivi" data-provider="messagesForLivi" finished-at="2019-12-11T01:50:29 IST" duration-ms="24993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[How's the weather ?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interactWithLivi -->
+        <test-method is-config="true" signature="endExtent(org.testng.ITestResult)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:29 IST" name="endExtent" finished-at="2019-12-11T01:50:29 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=interactWithLivi status=SUCCESS method=Test_BasicInteractions.interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+        <test-method is-config="true" signature="initializeExtent(java.lang.reflect.Method)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:29 IST" name="initializeExtent" finished-at="2019-12-11T01:50:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void uiFunctionalTests.Test_BasicInteractions.interactWithLivi(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtent -->
+        <test-method signature="interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:29 IST" name="interactWithLivi" data-provider="messagesForLivi" finished-at="2019-12-11T01:50:56 IST" duration-ms="26545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Any good restaurants nearby?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interactWithLivi -->
+        <test-method is-config="true" signature="endExtent(org.testng.ITestResult)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:56 IST" name="endExtent" finished-at="2019-12-11T01:50:56 IST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=interactWithLivi status=SUCCESS method=Test_BasicInteractions.interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+        <test-method is-config="true" signature="initializeExtent(java.lang.reflect.Method)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:56 IST" name="initializeExtent" finished-at="2019-12-11T01:50:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void uiFunctionalTests.Test_BasicInteractions.interactWithLivi(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtent -->
+        <test-method signature="interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:50:56 IST" name="interactWithLivi" data-provider="messagesForLivi" finished-at="2019-12-11T01:51:23 IST" duration-ms="26273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book an appointment with Dr. Clark]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interactWithLivi -->
+        <test-method is-config="true" signature="endExtent(org.testng.ITestResult)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:51:23 IST" name="endExtent" finished-at="2019-12-11T01:51:23 IST" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=interactWithLivi status=SUCCESS method=Test_BasicInteractions.interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+        <test-method is-config="true" signature="initializeExtent(java.lang.reflect.Method)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:51:23 IST" name="initializeExtent" finished-at="2019-12-11T01:51:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void uiFunctionalTests.Test_BasicInteractions.interactWithLivi(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtent -->
+        <test-method signature="interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:51:23 IST" name="interactWithLivi" data-provider="messagesForLivi" finished-at="2019-12-11T01:51:50 IST" duration-ms="26896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Describe how E =mc squared]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interactWithLivi -->
+        <test-method is-config="true" signature="endExtent(org.testng.ITestResult)[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:51:50 IST" name="endExtent" finished-at="2019-12-11T01:51:50 IST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=interactWithLivi status=SUCCESS method=Test_BasicInteractions.interactWithLivi(java.lang.String)[pri:1, instance:uiFunctionalTests.Test_BasicInteractions@2654635] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+        <test-method is-config="true" signature="assertLastRunTest()[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:51:50 IST" name="assertLastRunTest" finished-at="2019-12-11T01:51:50 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertLastRunTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uiFunctionalTests.Test_BasicInteractions@2654635]" started-at="2019-12-11T01:54:18 IST" name="tearDown" finished-at="2019-12-11T01:54:19 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uiFunctionalTests.Test_BasicInteractions -->
+      <class name="uiFunctionalTests.Test_Apostles">
+        <test-method is-config="true" signature="essentialsForTest()[pri:0, instance:uiFunctionalTests.Test_Apostles@737a135b]" started-at="2019-12-11T01:51:50 IST" name="essentialsForTest" finished-at="2019-12-11T01:51:50 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- essentialsForTest -->
+        <test-method is-config="true" signature="initializeExtent(java.lang.reflect.Method)[pri:0, instance:uiFunctionalTests.Test_Apostles@737a135b]" started-at="2019-12-11T01:51:51 IST" name="initializeExtent" finished-at="2019-12-11T01:51:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void uiFunctionalTests.Test_Apostles.verifyApostleSelection(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtent -->
+        <test-method signature="verifyApostleSelection(java.lang.String)[pri:2, instance:uiFunctionalTests.Test_Apostles@737a135b]" started-at="2019-12-11T01:51:51 IST" name="verifyApostleSelection" data-provider="apostles" finished-at="2019-12-11T01:52:59 IST" duration-ms="67921" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 17492, moz:profile: C:\Users\Sriparna\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3ab62482-c20f-4dcb-86dd-61893cfff5da]]>
+              <![CDATA[The following asserts failed:
+There is no Link associated with Apostle JAMES. Some issue here expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 17492, moz:profile: C:\Users\Sriparna\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3ab62482-c20f-4dcb-86dd-61893cfff5da
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at pageObjects.LiviInteractions.ifAlertPresentAccept(LiviInteractions.java:567)
-at pageObjects.LiviInteractions.shareLocation(LiviInteractions.java:539)
-at pageObjects.LiviInteractions.lambda$openWebViewLinks$1(LiviInteractions.java:482)
-at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
-at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
-at pageObjects.LiviInteractions.openWebViewLinks(LiviInteractions.java:425)
-at uiFunctionalTests.Test_WebView.verifyButtonsAndLinksSelection(Test_WebView.java:44)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+There is no Link associated with Apostle JAMES. Some issue here expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at uiFunctionalTests.Test_Apostles.verifyApostleSelection(Test_Apostles.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,48 +247,108 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyButtonsAndLinksSelection -->
-        <test-method is-config="true" signature="endExtent(org.testng.ITestResult)[pri:0, instance:uiFunctionalTests.Test_WebView@65b104b9]" started-at="2019-11-27T02:00:06 IST" name="endExtent" finished-at="2019-11-27T02:00:07 IST" duration-ms="739" status="PASS">
+        </test-method> <!-- verifyApostleSelection -->
+        <test-method is-config="true" signature="endExtent(org.testng.ITestResult)[pri:0, instance:uiFunctionalTests.Test_Apostles@737a135b]" started-at="2019-12-11T01:53:00 IST" name="endExtent" finished-at="2019-12-11T01:53:01 IST" duration-ms="806" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyButtonsAndLinksSelection status=FAILURE method=Test_WebView.verifyButtonsAndLinksSelection(java.lang.String)[pri:6, instance:uiFunctionalTests.Test_WebView@65b104b9] output={null}]]]>
+                <![CDATA[[TestResult name=verifyApostleSelection status=FAILURE method=Test_Apostles.verifyApostleSelection(java.lang.String)[pri:2, instance:uiFunctionalTests.Test_Apostles@737a135b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endExtent -->
-        <test-method is-config="true" signature="assertLastRunTest()[pri:0, instance:uiFunctionalTests.Test_WebView@65b104b9]" started-at="2019-11-27T02:00:07 IST" name="assertLastRunTest" finished-at="2019-11-27T02:00:07 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="assertLastRunTest()[pri:0, instance:uiFunctionalTests.Test_Apostles@737a135b]" started-at="2019-12-11T01:53:01 IST" name="assertLastRunTest" finished-at="2019-12-11T01:53:01 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertLastRunTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uiFunctionalTests.Test_WebView@65b104b9]" started-at="2019-11-27T02:00:07 IST" name="tearDown" finished-at="2019-11-27T02:00:09 IST" duration-ms="2568" status="PASS">
+      </class> <!-- uiFunctionalTests.Test_Apostles -->
+      <class name="uiFunctionalTests.Test_InfoForm">
+        <test-method is-config="true" signature="essentialsForTest()[pri:0, instance:uiFunctionalTests.Test_InfoForm@687ef2e0]" started-at="2019-12-11T01:53:01 IST" name="essentialsForTest" finished-at="2019-12-11T01:53:01 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- uiFunctionalTests.Test_WebView -->
-    </test> <!-- Basic Interactions -->
+        </test-method> <!-- essentialsForTest -->
+        <test-method is-config="true" signature="initializeExtent(java.lang.reflect.Method)[pri:0, instance:uiFunctionalTests.Test_InfoForm@687ef2e0]" started-at="2019-12-11T01:53:01 IST" name="initializeExtent" finished-at="2019-12-11T01:53:01 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void uiFunctionalTests.Test_InfoForm.verifyInfoFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtent -->
+        <test-method signature="verifyInfoFormSubmission(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:uiFunctionalTests.Test_InfoForm@687ef2e0]" started-at="2019-12-11T01:53:01 IST" name="verifyInfoFormSubmission" data-provider="InfoForm" finished-at="2019-12-11T01:54:18 IST" duration-ms="76500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MountainView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12/31/1981]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PHD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfoFormSubmission -->
+        <test-method is-config="true" signature="endExtent(org.testng.ITestResult)[pri:0, instance:uiFunctionalTests.Test_InfoForm@687ef2e0]" started-at="2019-12-11T01:54:18 IST" name="endExtent" finished-at="2019-12-11T01:54:18 IST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInfoFormSubmission status=SUCCESS method=Test_InfoForm.verifyInfoFormSubmission(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:uiFunctionalTests.Test_InfoForm@687ef2e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+        <test-method is-config="true" signature="assertLastRunTest()[pri:0, instance:uiFunctionalTests.Test_InfoForm@687ef2e0]" started-at="2019-12-11T01:54:18 IST" name="assertLastRunTest" finished-at="2019-12-11T01:54:18 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertLastRunTest -->
+      </class> <!-- uiFunctionalTests.Test_InfoForm -->
+    </test> <!-- Test 1 -->
   </suite> <!-- Livi Automation Suite -->
 </testng-results>

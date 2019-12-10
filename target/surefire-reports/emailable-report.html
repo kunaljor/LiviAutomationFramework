@@ -9,27 +9,24 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Livi Automation Suite</th></tr>
-<tr><td><a href="#t0">Basic Interactions</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">185,044</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test 1</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">310,781</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Livi Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Basic Interactions &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">uiFunctionalTests.Test_WebView</td><td><a href="#m0">verifyButtonsAndLinksSelection</a></td><td rowspan="1">1574800072316</td><td rowspan="1">132266</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Livi Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">uiFunctionalTests.Test_Apostles</td><td><a href="#m0">verifyApostleSelection</a></td><td rowspan="1">1576009311375</td><td rowspan="1">67921</td></tr><tr><th colspan="4">Test 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">uiFunctionalTests.Test_BasicInteractions</td><td><a href="#m1">interactWithLivi</a></td><td rowspan="5">1576009256728</td><td rowspan="5">26273</td></tr><tr class="passedeven"><td><a href="#m2">interactWithLivi</a></td></tr><tr class="passedeven"><td><a href="#m3">interactWithLivi</a></td></tr><tr class="passedeven"><td><a href="#m4">interactWithLivi</a></td></tr><tr class="passedeven"><td><a href="#m5">interactWithLivi</a></td></tr><tr class="passedodd"><td rowspan="1">uiFunctionalTests.Test_InfoForm</td><td><a href="#m6">verifyInfoFormSubmission</a></td><td rowspan="1">1576009381852</td><td rowspan="1">76500</td></tr></tbody>
 </table>
-<h2>Basic Interactions</h2><h3 id="m0">uiFunctionalTests.Test_WebView#verifyButtonsAndLinksSelection</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Avaamo,Call,Location</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DELL&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;13&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 17492, moz:profile: C:\Users\Sriparna\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3ab62482-c20f-4dcb-86dd-61893cfff5da
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at pageObjects.LiviInteractions.ifAlertPresentAccept(LiviInteractions.java:567)
-	at pageObjects.LiviInteractions.shareLocation(LiviInteractions.java:539)
-	at pageObjects.LiviInteractions.lambda$openWebViewLinks$1(LiviInteractions.java:482)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
-	at pageObjects.LiviInteractions.openWebViewLinks(LiviInteractions.java:425)
-	at uiFunctionalTests.Test_WebView.verifyButtonsAndLinksSelection(Test_WebView.java:44)
+<h2>Test 1</h2><h3 id="m0">uiFunctionalTests.Test_Apostles#verifyApostleSelection</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>James</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	There is no Link associated with Apostle JAMES. Some issue here expected [true] but found [false]
+	at uiFunctionalTests.Test_Apostles.verifyApostleSelection(Test_Apostles.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">uiFunctionalTests.Test_BasicInteractions#interactWithLivi</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Book an appointment with Dr. Clark</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">uiFunctionalTests.Test_BasicInteractions#interactWithLivi</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>How&apos;s the weather ?</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">uiFunctionalTests.Test_BasicInteractions#interactWithLivi</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Describe how E =mc squared</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">uiFunctionalTests.Test_BasicInteractions#interactWithLivi</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Hi Livi! How are you?</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">uiFunctionalTests.Test_BasicInteractions#interactWithLivi</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Any good restaurants nearby?</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">uiFunctionalTests.Test_InfoForm#verifyInfoFormSubmission</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>John</td><td>MountainView</td><td>1234567890</td><td>12/31/1981</td><td>Male</td><td>PHD</td><td>3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

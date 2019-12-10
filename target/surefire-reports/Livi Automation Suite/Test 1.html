@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test 1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test 1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 11 01:49:09 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>310 seconds (310781 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='uiFunctionalTests.Test_Apostles.verifyApostleSelection()'><b>verifyApostleSelection</b><br>Test class: uiFunctionalTests.Test_Apostles<br>Parameters: James</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	There is no Link associated with Apostle JAMES. Some issue here expected [true] but found [false]
+	at uiFunctionalTests.Test_Apostles.verifyApostleSelection(Test_Apostles.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace862165913", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace862165913'><pre>java.lang.AssertionError: The following asserts failed:
+	There is no Link associated with Apostle JAMES. Some issue here expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at uiFunctionalTests.Test_Apostles.verifyApostleSelection(Test_Apostles.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>67</td>
+<td>uiFunctionalTests.Test_Apostles@737a135b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='uiFunctionalTests.Test_BasicInteractions.interactWithLivi()'><b>interactWithLivi</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: Hi Livi! How are you?</td>
+<td></td>
+<td>25</td>
+<td>uiFunctionalTests.Test_BasicInteractions@2654635</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_BasicInteractions.interactWithLivi()'><b>interactWithLivi</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: How's the weather ?</td>
+<td></td>
+<td>24</td>
+<td>uiFunctionalTests.Test_BasicInteractions@2654635</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_BasicInteractions.interactWithLivi()'><b>interactWithLivi</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: Any good restaurants nearby?</td>
+<td></td>
+<td>26</td>
+<td>uiFunctionalTests.Test_BasicInteractions@2654635</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_BasicInteractions.interactWithLivi()'><b>interactWithLivi</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: Book an appointment with Dr. Clark</td>
+<td></td>
+<td>26</td>
+<td>uiFunctionalTests.Test_BasicInteractions@2654635</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_BasicInteractions.interactWithLivi()'><b>interactWithLivi</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: Describe how E =mc squared</td>
+<td></td>
+<td>26</td>
+<td>uiFunctionalTests.Test_BasicInteractions@2654635</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_WebView.verifyButtonsAndLinksSelection()'><b>verifyButtonsAndLinksSelection</b><br>Test class: uiFunctionalTests.Test_WebView<br>Parameters: Avaamo,Call,Location</td>
+<td></td>
+<td>89</td>
+<td>uiFunctionalTests.Test_WebView@5cde6747</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_Country.verifyCountrySelection()'><b>verifyCountrySelection</b><br>Test class: uiFunctionalTests.Test_Country<br>Parameters: India</td>
+<td></td>
+<td>74</td>
+<td>uiFunctionalTests.Test_Country@3e30646a</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_InfoForm.verifyInfoFormSubmission()'><b>verifyInfoFormSubmission</b><br>Test class: uiFunctionalTests.Test_InfoForm<br>Parameters: John, MountainView, 1234567890, 12/31/1981, Male, PHD, 3</td>
+<td></td>
+<td>76</td>
+<td>uiFunctionalTests.Test_InfoForm@687ef2e0</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_MainMenu.verifyMainMenu()'><b>verifyMainMenu</b><br>Test class: uiFunctionalTests.Test_MainMenu</td>
+<td></td>
+<td>21</td>
+<td>uiFunctionalTests.Test_MainMenu@7642df8f</td></tr>
+</table><p>
+</body>
+</html>

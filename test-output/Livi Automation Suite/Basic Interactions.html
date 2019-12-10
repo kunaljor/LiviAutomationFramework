@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Basic Interactions</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 27 01:27:13 IST 2019</td>
+<td>Started on:</td><td>Mon Dec 09 10:55:34 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>197 seconds (197980 ms)</td>
+<tr><td>Total time:</td><td>210 seconds (210677 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,19 @@ function toggleAllBoxes() {
 <tr>
 <td title='uiFunctionalTests.Test_Apostles.verifyApostleSelection()'><b>verifyApostleSelection</b><br>Test class: uiFunctionalTests.Test_Apostles<br>Parameters: James</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
-	There is no Link associated  with Apostle JAMES. Some issue here did not expect to find [true] but found [false]
-	at uiFunctionalTests.Test_Apostles.verifyApostleSelection(Test_Apostles.java:37)
+	There is no Link associated with Apostle JAMES. Some issue here expected [true] but found [false]
+	at uiFunctionalTests.Test_Apostles.verifyApostleSelection(Test_Apostles.java:40)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1597280379", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1597280379'><pre>java.lang.AssertionError: The following asserts failed:
-	There is no Link associated  with Apostle JAMES. Some issue here did not expect to find [true] but found [false]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1498514875", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1498514875'><pre>java.lang.AssertionError: The following asserts failed:
+	There is no Link associated with Apostle JAMES. Some issue here expected [true] but found [false]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at uiFunctionalTests.Test_Apostles.verifyApostleSelection(Test_Apostles.java:37)
+	at uiFunctionalTests.Test_Apostles.verifyApostleSelection(Test_Apostles.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -102,21 +106,16 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:770)
 	at org.testng.TestRunner.run(TestRunner.java:591)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
 </pre></div></td>
-<td>85</td>
-<td>uiFunctionalTests.Test_Apostles@5443d039</td></tr>
+<td>61</td>
+<td>uiFunctionalTests.Test_Apostles@4f9a2c08</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -126,15 +125,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='uiFunctionalTests.Test_BasicInteractions.verifyLiviHealth()'><b>verifyLiviHealth</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: Hi Livi! How are you?</td>
+<td title='uiFunctionalTests.Test_BasicInteractions.interactWithLivi()'><b>interactWithLivi</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: Hi Livi! How are you?</td>
 <td></td>
-<td>34</td>
-<td>uiFunctionalTests.Test_BasicInteractions@a87f8ec</td></tr>
+<td>19</td>
+<td>uiFunctionalTests.Test_BasicInteractions@33308786</td></tr>
 <tr>
-<td title='uiFunctionalTests.Test_BasicInteractions.verifyLiviHealth()'><b>verifyLiviHealth</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: How's the weather ?</td>
+<td title='uiFunctionalTests.Test_BasicInteractions.interactWithLivi()'><b>interactWithLivi</b><br>Test class: uiFunctionalTests.Test_BasicInteractions<br>Parameters: How's the weather ?</td>
 <td></td>
-<td>34</td>
-<td>uiFunctionalTests.Test_BasicInteractions@a87f8ec</td></tr>
+<td>20</td>
+<td>uiFunctionalTests.Test_BasicInteractions@33308786</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_WebView.verifyButtonsAndLinksSelection()'><b>verifyButtonsAndLinksSelection</b><br>Test class: uiFunctionalTests.Test_WebView<br>Parameters: Avaamo,Call,Location</td>
+<td></td>
+<td>68</td>
+<td>uiFunctionalTests.Test_WebView@333dd51e</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_Country.verifyCountrySelection()'><b>verifyCountrySelection</b><br>Test class: uiFunctionalTests.Test_Country<br>Parameters: India</td>
+<td></td>
+<td>47</td>
+<td>uiFunctionalTests.Test_Country@7c1e2a2d</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_InfoForm.verifyInfoFormSubmission()'><b>verifyInfoFormSubmission</b><br>Test class: uiFunctionalTests.Test_InfoForm<br>Parameters: John, MountainView, 1234567890, 12/31/81, Male, PHD, 3</td>
+<td></td>
+<td>73</td>
+<td>uiFunctionalTests.Test_InfoForm@a87f8ec</td></tr>
+<tr>
+<td title='uiFunctionalTests.Test_MainMenu.verifyMainMenu()'><b>verifyMainMenu</b><br>Test class: uiFunctionalTests.Test_MainMenu</td>
+<td></td>
+<td>12</td>
+<td>uiFunctionalTests.Test_MainMenu@2a5b3fee</td></tr>
 </table><p>
 </body>
 </html>

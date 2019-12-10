@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Livi Automation Suite" >
-  <test name="Basic Interactions">
+<suite name="Livi Automation Suite" parallel="tests" thread-count="2">
+<listeners>
+		<listener class-name="utilities.TestListener"></listener>
+	</listeners>
+  <test name="Test 1">
       <classes>
-      <!-- class name="uiFunctionalTests.Test_BasicInteractions"/>
-      <class name="uiFunctionalTests.Test_MainMenu"/>
+      <class name="uiFunctionalTests.Test_BasicInteractions"/>
+      <class name="uiFunctionalTests.Test_Apostles"/>
       <class name="uiFunctionalTests.Test_InfoForm"/>
+      
+    </classes>  
+    </test>   
+    <test name="Test 2">
+      <classes>
+      <class name="uiFunctionalTests.Test_MainMenu"/>
       <class name="uiFunctionalTests.Test_Country"/>
-      <class name="uiFunctionalTests.Test_Apostles"/-->
       <class name="uiFunctionalTests.Test_WebView"/>
     </classes>  
-    </test>        
+    </test>      
 </suite>

@@ -1,0 +1,4 @@
+01:54:06.892 [TestNG-tests-1] INFO  pageActions.LiviInteractions - The text captured from testScenario after removingspaces is Web_View
+01:54:06.952 [TestNG-tests-1] INFO  pageActions.LiviInteractions - The text captured from testScenario after removingspaces is Quick_Reply
+01:54:07.002 [TestNG-tests-1] INFO  pageActions.LiviInteractions - The text captured from testScenario after removingspaces is Carousel
+01:54:07.078 [TestNG-tests-1] INFO  pageActions.LiviInteractions - The text captured from testScenario after removingspaces is All_Input
