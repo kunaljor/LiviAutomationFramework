@@ -1,0 +1,5 @@
+01:54:07.079 [TestNG-tests-1] INFO  pageActions.LiviInteractions - SCENARIO matched is ALL_INPUT
+01:54:18.353 [TestNG-tests-1] INFO  org.testng.ITestListener - *** Executed verifyInfoFormSubmission test successfully...
+01:54:18.855 [TestNG-tests-1] INFO  uiFunctionalTests.BaseTest - In tearDown
+01:54:19.824 [TestNG-tests-1] INFO  uiFunctionalTests.BaseTest - Closed Driver
+01:54:19.878 [TestNG-tests-1] INFO  org.testng.ITestListener - *** Ending Test ***Test 1

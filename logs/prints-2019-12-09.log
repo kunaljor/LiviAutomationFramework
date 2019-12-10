@@ -1,0 +1,9 @@
+23:59:54.960 [TestNG-tests-1] INFO  pageObjects.LiviInteractions - In lastReplyReceived(), after thread sleep
+23:59:55.020 [TestNG-tests-1] INFO  pageObjects.LiviInteractions - In lastReplyReceived(), after allRepliesByLiviTillNow size capture
+23:59:55.054 [TestNG-tests-1] INFO  pageObjects.LiviInteractions - In lastReplyReceived(), after allRepliesByLiviTillNow get Total Replies
+23:59:55.163 [TestNG-tests-1] INFO  pageObjects.LiviInteractions - In lastReplyReceived(), The last reply from Livi was Test Scenarios
+Check all below scenarios
+Web View
+Quick Reply
+Carousel
+All Input

@@ -1,0 +1,7 @@
+23:57:41.376 [main] INFO  uiFunctionalTests.BaseTest - In BEFORE CLASS
+23:57:41.411 [main] INFO  pageObjects.Livi - In Livi CONSTRUCTOR
+23:57:41.576 [main] INFO  actors.Actor - In  clicksOnLiviButton
+23:57:41.592 [main] INFO  uiFunctionalTests.BaseTest - In FIRST RUN
+23:57:41.594 [main] INFO  uiFunctionalTests.BaseTest - Current Thread 1 is associated with Test_Country
+23:57:41.594 [main] INFO  pageActions.LiviInteractions - Opening Livi
+23:57:56.871 [main] INFO  pageActions.LiviInteractions - Livi Opened and Switched To Frame
